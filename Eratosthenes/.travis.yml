@@ -1,0 +1,8 @@
+language: java
+jdk: 
+- openjdk15
+
+script: ./mvnw clean install
+
+notifications:
+	email: v.traub@ostfalia.de
